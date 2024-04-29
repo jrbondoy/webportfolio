@@ -1,0 +1,182 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: rgba(17, 24, 39, 1) !important;
+	font-family: "Poppins", sans-serif !important;
+ overflow: hidden; 
+     scroll-behavior:smooth;
+}
+
+
+
+/* Nav  */
+.navbar {
+    background-color: rgba(2, 6, 23, 1); /* Dark background for the navbar */
+    overflow: hidden; /* Clears floats */
+}
+
+.nav-links {
+    list-style-type: none; /* Removes bullet points from the list */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the navigation links */
+}
+
+.nav-links li {
+    display: inline-block; /* Aligns links in a row */
+}
+
+.nav-links a {
+    display: block;
+    text-decoration: none; /* Removes underline from links */
+    color: white; /* White text color */
+    padding: 14px 50px; /* Adds padding to make the links larger */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    text-transform: uppercase;
+}
+
+.nav-links a:hover {
+    background-color: #ddd; /* Light background on hover */
+    color: #333; /* Dark text on hover */
+}
+@media (max-width: 600px) {
+    .nav-links li {
+        display: block; /* Stacks the links vertically */
+    }
+
+    .nav-links a {
+        text-align: center; /* Centers the text in each link */
+        padding: 10px; /* Reduces padding on smaller screens */
+    }
+}
+
+.linear-gradient{
+	
+	background-image: linear-gradient(to right, rgba(215, 20, 232, 1),rgba(76, 81, 198, 1), rgba(8, 40, 89, 1));
+	height:2vh;
+}
+
+
+.ellipse-1{
+	z-index:-1;
+	position: absolute;
+	width: 844px;
+	height: 809px;
+	left: -214px;
+	top: -284px;
+
+	background: #082859;
+	filter: blur(75px);
+
+}
+/*.ellipse-2{
+
+position: absolute;
+width: 638px;
+height: 590px;
+left: 1095px;
+top: 575px;
+
+background: rgba(76, 81, 198, 0.5);
+filter: blur(75px);
+
+}*/
+
+#landing{
+    margin-bottom:20rem!important;
+}
+/* LANDING CSS */
+#landing h2{
+font-weight: 400;
+font-size: 30px;
+line-height: 48px;
+
+color: #FA8CA0 !important ;
+
+}
+
+
+#landing h1{
+font-weight: 400;
+font-size: 48px;
+line-height: 75px;
+text-transform:   uppercase ;
+color: #FFFFFF;
+}
+
+#landing h4{_
+
+   font-size: 1rem;
+ color: #FA8CA0 !important ;
+} 
+
+#landing img{
+background: url(me.jpg);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 51px;
+}
+
+/* PROJECTS CSS */
+#projects h1{
+    background-color: tomato;
+    margin:0px 10rem 0px 10rem;
+    color:white !important;
+}
+
+
+
+/* TOOLS CSS */
+#tools{
+    color:white !important;
+    margin-bottom:15rem !important;
+    margin-top:15rem !important;
+}
+
+#tools h1{
+ background-color: tomato;
+   margin:5rem 10rem 5rem 10rem;
+}
+
+/* CONTACT CSS */
+#contact{
+color:white;
+}
+
+#contact h1{
+
+    color:white !important;
+}
+
+#contact #contact-image{
+     background: 
+        url("./images/caloocan.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+#form-btn {
+    padding: 8px 24px;
+    gap: 8px;
+    border-radius: 999px;
+    line-height: 24px;
+    text-align: center;
+    background-color: rgba(2, 6, 23, 1);
+    color: white;
+    font-size:  1.5rem;
+}
+
+footer {
+    color:white;
+    padding:20px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    background-color: rgba(2, 6, 23, 1);
+}
+@media screen and (max-width: 767px) {
+    #about-me img {
+        width: 100%;
+    }
